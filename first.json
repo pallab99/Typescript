@@ -1,0 +1,30 @@
+{
+    "firstname": "pallab",
+    "lastname": "majumdar",
+    "isadmin": true,
+    "age":23,
+    "items": ["banana","apple","mango"],
+    "myobj":{
+        "name":"nested",
+        "score":99,
+        "items1": ["rose","lily","sunflower",{"a":34,"b":true}]
+    }
+};
+
+//Always Double quote
+
+// myjson=`{
+//     "firstname": "pallab",
+//     "lastname": "majumdar",
+//     "isadmin": true,
+//     "age":23,
+//     "items": ["banana","apple","mango"],
+//     "myobj":{
+//         "name":"nested",
+//         "score":99,
+//         "items1": ["rose","lily","sunflower",{"a":34,"b":true}]
+//     }
+
+// }`;
+// parse=JSON.parse(myjson)
+// parse["myobj"]["items1"][3]['b']
